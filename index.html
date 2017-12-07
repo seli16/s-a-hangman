@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS-s-a-hangman.css"/>
+    <script src="s-a-hangman.js"></script>
+    <meta charset="UTF-8">
+    <title>s-a-hangman</title>
+</head>
+<body>
+<h1>HANGMAN</h1>
+
+Pick a level to start!:
+<select id="level" title="Choose a level!">
+    <option value="1">EASY</option>
+    <option value="2">MEDIUM</option>
+    <option value="3">HARD</option>
+
+</select>
+<button id="myButton" onClick="startGame()">Go!</button>
+
+<div id="Guesses">
+    Guess:
+    <select id="letters" title="Make a guess!">
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
+        <option value="e">E</option>
+        <option value="f">F</option>
+        <option value="g">G</option>
+        <option value="h">H</option>
+        <option value="i">I</option>
+        <option value="j">J</option>
+        <option value="k">K</option>
+        <option value="l">L</option>
+        <option value="m">M</option>
+        <option value="n">N</option>
+        <option value="o">O</option>
+        <option value="p">P</option>
+        <option value="q">Q</option>
+        <option value="r">R</option>
+        <option value="s">S</option>
+        <option value="t">T</option>
+        <option value="u">U</option>
+        <option value="v">V</option>
+        <option value="w">W</option>
+        <option value="x">X</option>
+        <option value="y">Y</option>
+        <option value="z">Z</option>
+    </select>
+
+    <button id="myButton2" onClick="guessLetter()">Guess!</button>
+</div>
+
+Guesses Left:
+<span id="guessesLeft">16</span>
+
+
+
+<div id="answers1"></div>
+<div id="answers2"></div>
+</body>
+</html>

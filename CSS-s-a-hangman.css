@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-size: 38px;
+    font-family: "American Typewriter";
+    background-color: darkseagreen;
+
+}
+h1 {
+    color: darkgreen;
+
+
+}
+p {
+    color: mediumseagreen;
+
+}
+
+#Guesses{
+    display: none;
+}
